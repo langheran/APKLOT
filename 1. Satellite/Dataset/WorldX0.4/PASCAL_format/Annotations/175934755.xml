@@ -1,0 +1,38 @@
+<annotation>
+  <folder>VOC2012</folder>
+  <filename>175934755.jpg</filename>
+  <source>
+    <database>The VOC2007 Database</database>
+    <annotation>PASCAL VOC2007</annotation>
+  </source>
+  <size>
+    <width>72</width>
+    <height>167</height>
+    <depth>3</depth>
+  </size>
+  <segmented>1</segmented>
+  <object>
+    <name>parkingspot</name>
+    <pose>Frontal</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>23</xmin>
+      <ymin>8</ymin>
+      <xmax>63</xmax>
+      <ymax>147</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>parkingspot</name>
+    <pose>Frontal</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>46</xmin>
+      <ymin>146</ymin>
+      <xmax>65</xmax>
+      <ymax>159</ymax>
+    </bndbox>
+  </object>
+</annotation>

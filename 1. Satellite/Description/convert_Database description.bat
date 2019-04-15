@@ -1,0 +1,1 @@
+Rscript -e "rmarkdown::render('Database description.Rmd', encoding = 'UTF-8', output_file = 'Database description.pdf');"

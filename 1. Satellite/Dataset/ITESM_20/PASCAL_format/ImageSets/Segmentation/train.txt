@@ -1,0 +1,12 @@
+1-Monterrey-TEC
+2-Estado de Mexico-TEC
+2-Guadalajara-TEC
+8-Estado de Mexico-TEC
+1-Guadalajara-TEC
+4-Estado de Mexico-TEC
+1-Estado de Mexico-TEC
+5-Estado de Mexico-TEC
+Queretaro-TEC
+7-Estado de Mexico-TEC
+6-Estado de Mexico-TEC
+9-Estado de Mexico-TEC

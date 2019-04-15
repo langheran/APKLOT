@@ -1,0 +1,13 @@
+Which attributes are used?
+
+- Other datasets
+- Github code?
+- Shape charactrization from _Shape Analysis by Costa & Cesar_ book.
+
+Qué se evalua?
+
+Cómo está el ground truth?
+
+Cómo evaluar la máscara?
+
+Código para evaluar la máscara.

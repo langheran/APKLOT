@@ -1,0 +1,22 @@
+\contentsline {subsection}{Introduction}{1}{section*.2}
+\contentsline {subsection}{Objectives}{2}{section*.3}
+\contentsline {subsection}{Related work}{2}{section*.4}
+\contentsline {subsection}{Ground truth description}{2}{section*.5}
+\contentsline {subsection}{Included scripts guide}{3}{section*.7}
+\contentsline {subsection}{Format conversion}{4}{section*.9}
+\contentsline {subsubsection}{Subset selection - \texttt {1.\ build\_training\_test\_folders}}{4}{section*.10}
+\contentsline {subsubsection}{Pascal format conversion - \texttt {2.\ pascal}}{4}{section*.11}
+\contentsline {subsection}{Statistical features - \texttt {4.\ features}}{4}{section*.12}
+\contentsline {subsection}{Mask evaluation}{5}{section*.14}
+\contentsline {subsection}{Dataset expansion}{5}{section*.16}
+\contentsline {subsubsection}{Download more images}{5}{section*.17}
+\contentsline {subsubsection}{Jittering - \texttt {3.\ jittering}}{5}{section*.18}
+\contentsline {subsection}{Useful Software}{6}{section*.20}
+\contentsline {subsubsection}{Google Maps Api}{6}{section*.21}
+\contentsline {subsubsection}{labelme}{6}{section*.22}
+\contentsline {subsubsection}{dlib}{6}{section*.23}
+\contentsline {subsection}{History and Background}{6}{section*.24}
+\contentsline {subsection}{Organizers}{6}{section*.25}
+\contentsline {subsection}{Support}{7}{section*.26}
+\contentsline {subsection}{Legal Notice}{7}{section*.27}
+\contentsline {subsection}{References}{7}{section*.28}

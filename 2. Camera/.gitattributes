@@ -1,0 +1,2 @@
+segmentation_1/ filter=lfs diff=lfs merge=lfs -text
+segmentation_2/ filter=lfs diff=lfs merge=lfs -text
