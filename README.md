@@ -10,7 +10,8 @@ For the purpose of this dataset, a parking spot is a painted area specially desi
 - Trees in the way of the parking spot.
 
 These are the countries and cities included in *APKLOT*:
-| Country       | City        | \# Instances |
+
+|    Country    |    City     | \# Instances |
 | ------------- | ----------- | ------------ |
 | México        | México      | 90           |
 | México        | Monterrey   | 6            |
