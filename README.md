@@ -47,7 +47,7 @@ The ground truth is available in two formats:
     4.  **SegmentationClass.** Contains the masks for training by class i.e. a class-wise color is assigned.
     5.  **SegmentationObject.**  Contains the masks i.e. a object-wise color is assigned. Due we are using just one class, it is worthwhile to point out that this folder contains exactly the same images as the **SegmentationClass** folder and is included for compatibility issues.
 
-![Example segmentation images on the Pascal VOC: (A) **JPEGImages** folder, (B) **SegmentationClass** folder, (C) **SegmentationObject** folder. ](1. Satellite/Description/images/apklot_examples/seg.png)
+![Example segmentation images on the Pascal VOC: (A) **JPEGImages** folder, (B) **SegmentationClass** folder, (C) **SegmentationObject** folder. ](1.%20Satellite/Description/images/apklot_examples/seg.png)
 
 2. **LabelMe masks.** LabelMe mask format was introduced as part of a [web site](http://labelme.csail.mit.edu/Release3.0/) for image segmentation on [@DBLP:journals/corr/abs-1210-3448]. Here are the most  important elements of the ensued json file:
     1. **shapes.** An array containing each of the shape polygons that were labeled as a parking spot.
