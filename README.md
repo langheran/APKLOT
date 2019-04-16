@@ -23,8 +23,8 @@ These are the countries and cities included in *APKLOT*:
 | Chile         | Santiago    | 62           |
 | Spain         | Madrid      | 23           |
 | Japan         | Tokyo       | 40           |
-: Countries and cities included in _APKLOT_
 
+: Countries and cities included in _APKLOT_
 
 ## Objectives
 
