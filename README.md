@@ -112,7 +112,7 @@ Then, you can just run the script and the folders will be generated at the desir
 
 Finally, we want to assess how well suited is the data by itself to an specific algorithm we are developing. E.g., in some environments we would like to filter out parking spaces with very little annotated spaces to train more effectively,  in others we would like to bound the algorithm in terms of computational power.
 
-![Stats features from the APKLOT dataset: (A) size in KB, (B) width and height of the image, (C) total area vs annotated area, (D) area count per image.](1. Satellite/Description/images/features.png)
+![Stats features from the APKLOT dataset: (A) size in KB, (B) width and height of the image, (C) total area vs annotated area, (D) area count per image.](1.%20Satellite/Description/images/features.png)
 
 Figure \@ref(fig:fig2) show some of the  statistical features that were extracted by using the *features.ipynb* script:
 
@@ -136,7 +136,7 @@ $$
 $$
 
 
-![Example segmentation images on our dataset _APKLOT_. ](1. Satellite/Description/images/segmentation_examples/seg.png)
+![Example segmentation images on our dataset _APKLOT_. ](1.%20Satellite/Description/images/segmentation_examples/seg.png)
 
 Clear metrics [@stiefelhagen2006clear].
 
