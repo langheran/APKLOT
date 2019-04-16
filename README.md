@@ -212,4 +212,23 @@ APKLOT consist of 500 still images with more than 7000 marked polygons of parkin
 3. Comply with best practices for attribution found here: https://wiki.creativecommons.org/wiki/best_practices_for_attribution
 4. Understand that the authors make no guarantee or warranty of non-infringement with respect to the dataset.
 
-## References
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-DBLP:journals/corr/HsiehLH17">
+<p>[1] M. Hsieh, Y. Lin, and W. H. Hsu, “Drone-based object counting by spatially regularized regional proposal network,” <em>CoRR</em>, vol. abs/1707.05972, 2017.</p>
+</div>
+<div id="ref-Everingham10">
+<p>[2] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, “The pascal visual object classes (voc) challenge,” <em>International Journal of Computer Vision</em>, vol. 88, no. 2, pp. 303–338, Jun. 2010.</p>
+</div>
+<div id="ref-DBLP:journals/corr/abs-1210-3448">
+<p>[3] A. Barriuso and A. Torralba, “Notes on image annotation,” <em>CoRR</em>, vol. abs/1210.3448, 2012.</p>
+</div>
+<div id="ref-stiefelhagen2006clear">
+<p>[4] R. Stiefelhagen, K. Bernardin, R. Bowers, J. Garofolo, D. Mostefa, and P. Soundararajan, “The clear 2006 evaluation,” in <em>International evaluation workshop on classification of events, activities and relationships</em>, 2006, pp. 1–44.</p>
+</div>
+<div id="ref-King:2009:DML:1577069.1755843">
+<p>[5] D. E. King, “Dlib-ml: A machine learning toolkit,” <em>J. Mach. Learn. Res.</em>, vol. 10, pp. 1755–1758, Dec. 2009.</p>
+</div>
+</div>
+</div>
