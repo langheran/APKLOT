@@ -185,21 +185,21 @@ Dlib is an open source library that was published on [@King:2009:DML:1577069.175
 
 | Year | Statistics| New developments| Notes|
 | ---- | :------------------------------------------------------------------ | :-------------------------------------- | :------------------------------- |
-| 2018 | Only 1 class discriminating between parking spot and other spaces. \linebreak Train: \linebreak \hspace*{1cm} $300$ images \linebreak \hspace*{1cm} $4034$ labelme polygons  \linebreak Validation: \linebreak \hspace*{1cm} $100$ images \linebreak \hspace*{1cm} $1513$ labelme polygons \linebreak Test: \linebreak \hspace*{1cm} $101$ images \linebreak \hspace*{1cm} $1459$ labelme polygons | One segmentation task: \linebreak Parking Spot detection | Images were taken from \linebreak Google Maps API. |
+| 2018 | Only 1 class discriminating between parking spot and other spaces. <br /> Train: <br /> &nbsp;&nbsp;  $300$ images <br /> &nbsp;&nbsp;  $4034$ labelme polygons  <br /> Validation: <br /> &nbsp;&nbsp;  $100$ images <br /> &nbsp;&nbsp;  $1513$ labelme polygons <br /> Test: <br /> &nbsp;&nbsp;  $101$ images <br /> &nbsp;&nbsp;  $1459$ labelme polygons | One segmentation task: <br /> Parking Spot detection | Images were taken from <br /> Google Maps API. |
 
 
 
 ## Organizers
 
-- Nisim Jonatan Hurst Tarrab (graduate student at ITESM).
-- Leonardo Chang (post-doctoral researcher at ITESM).
+- Nisim Jonatan Hurst Tarrab (MSc. in Computer Science from Tecnologico de Monterrey).
+- Leonardo Chang (researcher at Tecnologico de Monterrey).
 
 with major contributions from
 
-- Miguel González-Mendoza (ITESM)
+- Miguel González-Mendoza (distinguished professor and researcher in the Department of Computer Science and Engineering, Tecnologico de Monterrey)
 
 ## Support
-The preparation and running of this dataset is supported by the *Instituto Tecnológico y de Estudios Superiores de Monterrey* ITESM, and was funded up to some point by the *Consejo Nacional de Ciencia y Tecnología* CONACyT. If you wish to contribute to this dataset or have any doubt, please contact us at langheran@gmail.com.
+The preparation and running of this dataset is supported by the *Instituto Tecnologico y de Estudios Superiores de Monterrey*, and was funded up to some point by the *Consejo Nacional de Ciencia y Tecnología* CONACyT. If you wish to contribute to this dataset or have any doubt, please contact us at langheran@gmail.com.
 
 ## Legal Notice
 
