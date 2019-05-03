@@ -1,0 +1,1 @@
+python "evaluate.py" --pred_batch_folder "C:\Users\langh\Dropbox\MCC-I Masters\Thesis\A17\1. Training\scripts\4. features\pred_batch" --true_batch_folder "C:\Users\langh\Dropbox\MCC-I Masters\Thesis\A17\1. Training\scripts\4. features\true_batch"
