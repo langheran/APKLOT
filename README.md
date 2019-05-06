@@ -222,7 +222,7 @@ Dlib is an open source library that was published on [[5]](#user-content-ref-kin
 
 | Year | Statistics| New developments| Notes|
 | ---- | :------------------------------------------------------------------ | :-------------------------------------- | :------------------------------- |
-| 2018 | Only 1 class discriminating between parking blocks and other spaces. <br /> Train: <br /> &nbsp;&nbsp;  $300$ images <br /> &nbsp;&nbsp;  $4034$ labelme polygons  <br /> Validation: <br /> &nbsp;&nbsp;  $100$ images <br /> &nbsp;&nbsp;  $1513$ labelme polygons <br /> Test: <br /> &nbsp;&nbsp;  $101$ images <br /> &nbsp;&nbsp;  $1459$ labelme polygons | One segmentation task: <br /> Parking Block detection | Images were taken from <br /> Google Maps API. |
+| 2018 | Only 1 class discriminating between parking blocks and other spaces. <br /> Train: <br /> &nbsp;&nbsp;  _300_ images <br /> &nbsp;&nbsp;  _4034_ labelme polygons  <br /> Validation: <br /> &nbsp;&nbsp;  _100_ images <br /> &nbsp;&nbsp;  _1513_ labelme polygons <br /> Test: <br /> &nbsp;&nbsp;  _101_ images <br /> &nbsp;&nbsp;  _1459_ labelme polygons | One segmentation task: <br /> Parking Block detection | Images were taken from <br /> Google Maps API. |
 
 
 
