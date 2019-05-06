@@ -216,7 +216,7 @@ We already digressed around labelme but here we indulge in a more formal introdu
 
 ### dlib
 
-Dlib is an open source library that was published on [[5]](#user-content-ref-king:2009:DML:1577069.1755843). It has extensive documentation through its [webpage](http://dlib.net/).
+Dlib is an open source library that was published on [[5]](#user-content-ref-king-2009-DML-1577069.1755843). It has extensive documentation through its [webpage](http://dlib.net/).
 
 ## History and Background
 
@@ -264,7 +264,7 @@ APKLOT consist of 500 still images with more than 7000 marked polygons of parkin
 <div id="ref-stiefelhagen2006clear">
 <p>[4] R. Stiefelhagen, K. Bernardin, R. Bowers, J. Garofolo, D. Mostefa, and P. Soundararajan, “The clear 2006 evaluation,” in <em>International evaluation workshop on classification of events, activities and relationships</em>, 2006, pp. 1–44.</p>
 </div>
-<div id="ref-King:2009:DML:1577069.1755843">
+<div id="ref-king-2009-DML-1577069.1755843">
 <p>[5] D. E. King, “Dlib-ml: A machine learning toolkit,” <em>J. Mach. Learn. Res.</em>, vol. 10, pp. 1755–1758, Dec. 2009.</p>
 </div>
 </div>
