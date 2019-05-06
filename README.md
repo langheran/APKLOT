@@ -216,7 +216,7 @@ We already digressed around labelme but here we indulge in a more formal introdu
 
 ### dlib
 
-Dlib is an open source library that was published on [5](#user-content-ref-King:2009:DML:1577069.1755843). It has extensive documentation through its [webpage](http://dlib.net/).
+Dlib is an open source library that was published on [[5]](#user-content-ref-King:2009:DML:1577069.1755843). It has extensive documentation through its [webpage](http://dlib.net/).
 
 ## History and Background
 
