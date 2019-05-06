@@ -269,5 +269,3 @@ APKLOT consist of 500 still images with more than 7000 marked polygons of parkin
 </div>
 </div>
 </div>
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSRd6eKUgiFcN2ucDuCt4D0w2zikyuIIv1NzT8bH-VbZEEA5Nqym7FWhSDf4CAqAF7oYdPy9g92TA27/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
