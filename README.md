@@ -34,14 +34,14 @@
 
 ## Introduction
 
-The main goal of this dataset is to segment parking spot spaces from several parking lots of the world in realistic satellite photos. Satellite photos were generated using the free Google Maps API service. Given a training set, this is fundamentally a supervised-learning learning problem.
+The main goal of this dataset is to segment parking block spaces from several parking lots of the world in realistic satellite photos. Satellite photos were generated using the free Google Maps API service. Given a training set, this is fundamentally a supervised-learning learning problem.
 
-For the purpose of this dataset, a parking spot is a painted area specially designed inside the parking lot for parking. we are not considering the following:
+For the purpose of this dataset, a parking block is a painted area specially designed inside the parking lot for parking. we are not considering the following:
 
-- Parking spots outside the parking lot.
+- Parking spot(s)/block(s) outside the parking lot.
 - Badly parked vehicles, including those parked on the traffic lane and non-parking spot (benches, gardens, etc).
-- Debris or machinery in the parking spot when it is used as manner of storage facility.
-- Trees in the way of the parking spot.
+- Debris or machinery in the parking block when it is used as manner of storage facility.
+- Trees in the way of the parking block.
 
 These are the countries and cities included in *APKLOT*:
 
@@ -62,7 +62,7 @@ These are the countries and cities included in *APKLOT*:
 
 ## Objectives
 
-- Provides aerial view image dataset for parking spot segmentation, i.e. generate pixel-wise  areas given the class visible at each pixel through a mask.
+- Provides aerial view image dataset for parking block segmentation, i.e. generate pixel-wise  areas given the class visible at each pixel through a mask.
 - Provides benchmark code for evaluating the quality of the masks.
 - Enables evaluation and comparison of different methods vs the results of obtained in the companion paper.
 
@@ -84,7 +84,7 @@ The ground truth is available in two formats:
 ![Example segmentation images on the Pascal VOC: (A) **JPEGImages** folder, (B) **SegmentationClass** folder, (C) **SegmentationObject** folder. ](1.%20Satellite/Description/images/apklot_examples/seg.png)
 
 2. **LabelMe masks.** LabelMe mask format was introduced as part of a [web site](http://labelme.csail.mit.edu/Release3.0/) for image segmentation on [@DBLP:journals/corr/abs-1210-3448]. Here are the most  important elements of the ensued json file:
-    1. **shapes.** An array containing each of the shape polygons that were labeled as a parking spot.
+    1. **shapes.** An array containing each of the shape polygons that were labeled as a parking block.
     2. **imageData.** This element was deleted on behalf of reducing redundancy and making the dataset smaller. There is one Jupyter Notebook on the **labelme** folder - *imagedata.ipynb* - which can restore or delete this dictionary element if one would like to modify some area mapping with the [labelme  python](https://github.com/wkentaro/labelme) tool. You <u>should</u> restore the imageData dictionary element in order to run once again the labelme tool on the provided json file.
     3. **Other features.** lineColor, fillColor and image path is also provided for the *labelme* tool to render the polygons on edit mode.
 
@@ -158,7 +158,7 @@ Figure \@ref(fig:fig2) show some of the  statistical features that were extracte
 
 - **(C) Total area vs Annotated area.** This plot evince that sparse annotations dominate the dataset. Subset of a larger proportion could be assembled. However, we should take into account that the total area will ever be greater than the annotated area, and that due to the image borders will be approximately $\frac{1}{4}$ of the [total](http://www.eveandersson.com/pi/monte-carlo-circle).
 
-- **(D) Area count per image.** We can see that each image has marked about $15$  disconnected parking spot regions. There are images in which this number is really small, meaning a big fully connected clustered region. Depending on the problem, these regions might be desirable or just as well should be avoided. E.g. If we want to boost our segmentation algorithm with the prior probability from near regions, then big clusters should be used for training. On the contrary, if we want our algorithm to be robust enough to be able to detect parking spots solely on the appearance of just one of them, then images with a large area count (disconnected spots) should be selected.
+- **(D) Area count per image.** We can see that each image has marked about $15$  disconnected parking block regions. There are images in which this number is really small, meaning a big fully connected clustered region. Depending on the problem, these regions might be desirable or just as well should be avoided. E.g. If we want to boost our segmentation algorithm with the prior probability from near regions, then big clusters should be used for training. On the contrary, if we want our algorithm to be robust enough to be able to detect parking spots solely on the appearance of just one of them, then images with a large area count (disconnected spots) should be selected.
 
 ## Mask evaluation 
 
@@ -219,7 +219,7 @@ Dlib is an open source library that was published on [@King:2009:DML:1577069.175
 
 | Year | Statistics| New developments| Notes|
 | ---- | :------------------------------------------------------------------ | :-------------------------------------- | :------------------------------- |
-| 2018 | Only 1 class discriminating between parking spot and other spaces. <br /> Train: <br /> &nbsp;&nbsp;  $300$ images <br /> &nbsp;&nbsp;  $4034$ labelme polygons  <br /> Validation: <br /> &nbsp;&nbsp;  $100$ images <br /> &nbsp;&nbsp;  $1513$ labelme polygons <br /> Test: <br /> &nbsp;&nbsp;  $101$ images <br /> &nbsp;&nbsp;  $1459$ labelme polygons | One segmentation task: <br /> Parking Spot detection | Images were taken from <br /> Google Maps API. |
+| 2018 | Only 1 class discriminating between parking blocks and other spaces. <br /> Train: <br /> &nbsp;&nbsp;  $300$ images <br /> &nbsp;&nbsp;  $4034$ labelme polygons  <br /> Validation: <br /> &nbsp;&nbsp;  $100$ images <br /> &nbsp;&nbsp;  $1513$ labelme polygons <br /> Test: <br /> &nbsp;&nbsp;  $101$ images <br /> &nbsp;&nbsp;  $1459$ labelme polygons | One segmentation task: <br /> Parking Block detection | Images were taken from <br /> Google Maps API. |
 
 
 
@@ -239,7 +239,7 @@ The preparation and running of this dataset is supported by the *Instituto Tecno
 
 The Aerial Parking Lot dataset (APKLOT), is made available under the Creative Commons license found in the ``license/`` directory. A Creative Commons (CC) license is one of several public copyright licenses that enable free distribution of otherwise copyrighted work.
 
-APKLOT consist of 500 still images with more than 7000 marked polygons of parking spots. The images were extracted from Google Maps API. Users are entitled to use this image under this conditions:
+APKLOT consist of 500 still images with more than 7000 marked polygons of parking blocks. The images were extracted from Google Maps API. Users are entitled to use this image under this conditions:
 
 1. Comply with the _fair-use_ google maps terms of service given at their [page](https://www.google.com/permissions/geoguidelines/).
 2. Comply with the license file on the ``license/`` folder.
