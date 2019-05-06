@@ -172,7 +172,7 @@ $$
 
 ![Example segmentation images on our dataset _APKLOT_. ](1.%20Satellite/Description/images/segmentation_examples/seg.png)
 
-Clear metrics [@stiefelhagen2006clear].
+Clear metrics [[4]](#user-content-ref-stiefelhagen2006clear).
 
 ## Dataset expansion
 
@@ -212,7 +212,7 @@ Lets give it a closer look and explain it line by line:
 
 ### labelme
 
-We already digressed around labelme but here we indulge in a more formal introduction. Labelme is a polygon manual annotation tool for segmentation that was published on [[4]](#user-content-ref-dblp-journals/corr/abs-1210-3448). It was first exposed to the public through a [webpage](http://labelme.csail.mit.edu/Release3.0/) and then through a python pip [package](https://github.com/wkentaro/labelme).
+We already digressed around labelme but here we indulge in a more formal introduction. Labelme is a polygon manual annotation tool for segmentation that was published on [[3]](#user-content-ref-dblp-journals/corr/abs-1210-3448). It was first exposed to the public through a [webpage](http://labelme.csail.mit.edu/Release3.0/) and then through a python pip [package](https://github.com/wkentaro/labelme).
 
 ### dlib
 
