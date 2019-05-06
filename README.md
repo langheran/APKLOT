@@ -1,15 +1,15 @@
 <div align="center">
   <img src="https://github.com/langheran/APKLOT/blob/master/images/logo.png"><br><br>
 </div>
+<!-- omit in toc -->
 -----------------
 
 [![Join the chat at https://gitter.im/apklot/users](https://badges.gitter.im/apklot/users.svg)](https://gitter.im/apklot/users) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/langheran/APKLOT/master/LICENSE.md) [![Dataset Size](https://img.shields.io/github/repo-size/langheran/apklot.svg)](https://github.com/langheran/APKLOT/tree/master/1.%20Satellite/Dataset)
 
 **APKLOT** is a dataset for aerial parking block segmentation. It is suitable for deep learning on GPU enabled devices.
 
-## Table of contents
-- [</div>](#div)
-- [Table of contents](#table-of-contents)
+## Table of contents <!-- omit in toc -->
+
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Related work](#related-work)
