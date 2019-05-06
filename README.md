@@ -68,13 +68,13 @@ These are the countries and cities included in *APKLOT*:
 
 ## Related work
 
-The authors on [@DBLP:journals/corr/HsiehLH17] present the CARPK dataset.  It is the first large-scale dataset for counting cars from flying drones. CARPK provides 89,777 instances bounding boxes from moving video in 4 distinct parking lots.
+The authors on [1](#user-content-ref-dblp:journals/corr/hsiehlh17) present the CARPK dataset.  It is the first large-scale dataset for counting cars from flying drones. CARPK provides 89,777 instances bounding boxes from moving video in 4 distinct parking lots.
 
 ## Ground truth description
 
 The ground truth is available in two formats:
 
-1. **Pascal VOC 2010.** The PASCAL Visual Object Classes format [@Everingham10] is one of the most used for segmentation. Here is a brief description of the each folder, however if you wish to dive deeper you can refer to [the Pascal VOC page](http://host.robots.ox.ac.uk/pascal/VOC/):
+1. **Pascal VOC 2010.** The PASCAL Visual Object Classes format [2](#user-content-ref-everingham10) is one of the most used for segmentation. Here is a brief description of the each folder, however if you wish to dive deeper you can refer to [the Pascal VOC page](http://host.robots.ox.ac.uk/pascal/VOC/):
     1.  **JPEGImages.** The binary image files on JPEG compression format are stored here.
     2.  **Annotations.** Contains xml Pascal VOC annotation files. The most prominent feature of these files is that they do not contain the real shape polygon, just a bounding rectangle without orientation.
     3.  **ImageSets\\Segmentation.** 3 text files are included here: (1) train.txt, (2) trainval.txt and (3) val.txt. Each is a list of files without extension for the train, validation and test set respectively.
@@ -83,7 +83,7 @@ The ground truth is available in two formats:
 
 ![Example segmentation images on the Pascal VOC: (A) **JPEGImages** folder, (B) **SegmentationClass** folder, (C) **SegmentationObject** folder. ](1.%20Satellite/Description/images/apklot_examples/seg.png)
 
-2. **LabelMe masks.** LabelMe mask format was introduced as part of a [web site](http://labelme.csail.mit.edu/Release3.0/) for image segmentation on [@DBLP:journals/corr/abs-1210-3448]. Here are the most  important elements of the ensued json file:
+2. **LabelMe masks.** LabelMe mask format was introduced as part of a [web site](http://labelme.csail.mit.edu/Release3.0/) for image segmentation on [3](#user-content-ref-dblp:journals/corr/abs-1210-3448). Here are the most  important elements of the ensued json file:
     1. **shapes.** An array containing each of the shape polygons that were labeled as a parking block.
     2. **imageData.** This element was deleted on behalf of reducing redundancy and making the dataset smaller. There is one Jupyter Notebook on the **labelme** folder - *imagedata.ipynb* - which can restore or delete this dictionary element if one would like to modify some area mapping with the [labelme  python](https://github.com/wkentaro/labelme) tool. You <u>should</u> restore the imageData dictionary element in order to run once again the labelme tool on the provided json file.
     3. **Other features.** lineColor, fillColor and image path is also provided for the *labelme* tool to render the polygons on edit mode.
@@ -212,11 +212,11 @@ Lets give it a closer look and explain it line by line:
 
 ### labelme
 
-We already digressed around labelme but here we indulge in a more formal introduction. Labelme is a polygon manual annotation tool for segmentation that was published on [@DBLP:journals/corr/abs-1210-3448]. It was first exposed to the public through a [webpage](http://labelme.csail.mit.edu/Release3.0/) and then through a python pip [package](https://github.com/wkentaro/labelme).
+We already digressed around labelme but here we indulge in a more formal introduction. Labelme is a polygon manual annotation tool for segmentation that was published on [4](#user-content-ref-dblp:journals/corr/abs-1210-3448). It was first exposed to the public through a [webpage](http://labelme.csail.mit.edu/Release3.0/) and then through a python pip [package](https://github.com/wkentaro/labelme).
 
 ### dlib
 
-Dlib is an open source library that was published on [@King:2009:DML:1577069.1755843]. It has extensive documentation through its [webpage](http://dlib.net/).
+Dlib is an open source library that was published on [5](#user-content-ref-King:2009:DML:1577069.1755843). It has extensive documentation through its [webpage](http://dlib.net/).
 
 ## History and Background
 
@@ -253,13 +253,13 @@ APKLOT consist of 500 still images with more than 7000 marked polygons of parkin
 <h2>References</h2>
 <div id="refs" class="references">
 <div id="ref-DBLP:journals/corr/HsiehLH17">
-<p>[1] M. Hsieh, Y. Lin, and W. H. Hsu, “Drone-based object counting by spatially regularized regional proposal network,” <em>CoRR</em>, vol. abs/1707.05972, 2017.</p>
+<p>[1] M. Hsieh, Y. Lin, and W. H. Hsu, “Drone-based object counting by spatially regularized regional proposal network,” <em>Computing Research Repository (CoRR)</em>, vol. abs/1707.05972, 2017.</p>
 </div>
 <div id="ref-Everingham10">
 <p>[2] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, “The pascal visual object classes (voc) challenge,” <em>International Journal of Computer Vision</em>, vol. 88, no. 2, pp. 303–338, Jun. 2010.</p>
 </div>
 <div id="ref-DBLP:journals/corr/abs-1210-3448">
-<p>[3] A. Barriuso and A. Torralba, “Notes on image annotation,” <em>CoRR</em>, vol. abs/1210.3448, 2012.</p>
+<p>[3] A. Barriuso and A. Torralba, “Notes on image annotation,” <em>Computing Research Repository (CoRR)</em>, vol. abs/1210.3448, 2012.</p>
 </div>
 <div id="ref-stiefelhagen2006clear">
 <p>[4] R. Stiefelhagen, K. Bernardin, R. Bowers, J. Garofolo, D. Mostefa, and P. Soundararajan, “The clear 2006 evaluation,” in <em>International evaluation workshop on classification of events, activities and relationships</em>, 2006, pp. 1–44.</p>
