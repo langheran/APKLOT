@@ -8,7 +8,6 @@
 **APKLOT** is a dataset for aerial parking block segmentation. It is suitable for deep learning on GPU enabled devices.
 
 ## Table of contents
-
 - [</div>](#div)
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
