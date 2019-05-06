@@ -199,8 +199,11 @@ seq = iaa.Sequential([
 Lets give it a closer look and explain it line by line:
 
 > (2) Randomly crop by a value between 0 and 50 pixels
+> 
 > (3) Horizontally flip 50\% of the images
+> 
 > (4) Vertically flip 50\% of the images
+> 
 > (5) Rotate images by a value between -45 and 45 degrees
 
 ## Useful Software
