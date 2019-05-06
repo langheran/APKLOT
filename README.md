@@ -1,3 +1,38 @@
+<div align="center">
+  <img src="https://github.com/langheran/APKLOT/blob/master/images/logo.png"><br><br>
+</div>
+-----------------
+
+[![Join the chat at https://gitter.im/apklot/users](https://badges.gitter.im/apklot/users.svg)](https://gitter.im/apklot/users) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/langheran/APKLOT/master/LICENSE.md) [![Dataset Size](https://img.shields.io/github/repo-size/langheran/apklot.svg)](https://github.com/langheran/APKLOT/tree/master/1.%20Satellite/Dataset)
+
+**APKLOT** is a dataset for parking block segmentation. It is suitable for deep learning on GPU enabled devices.
+
+## Table of contents
+
+- [</div>](#div)
+- [Table of contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Objectives](#objectives)
+- [Related work](#related-work)
+- [Ground truth description](#ground-truth-description)
+- [Included scripts guide](#included-scripts-guide)
+- [Format conversion](#format-conversion)
+  - [Subset selection - ``1. build_training_test_folders``](#subset-selection---1-buildtrainingtestfolders)
+  - [Pascal format conversion - ``2. pascal``](#pascal-format-conversion---2-pascal)
+- [Statistical features - ``4. features``](#statistical-features---4-features)
+- [Mask evaluation](#mask-evaluation)
+- [Dataset expansion](#dataset-expansion)
+  - [Download more images](#download-more-images)
+  - [Jittering - ``3. jittering``](#jittering---3-jittering)
+- [Useful Software](#useful-software)
+  - [Google Maps Api](#google-maps-api)
+  - [labelme](#labelme)
+  - [dlib](#dlib)
+- [History and Background](#history-and-background)
+- [Organizers](#organizers)
+- [Support](#support)
+- [Legal Notice](#legal-notice)
+
 ## Introduction
 
 The main goal of this dataset is to segment parking spot spaces from several parking lots of the world in realistic satellite photos. Satellite photos were generated using the free Google Maps API service. Given a training set, this is fundamentally a supervised-learning learning problem.
@@ -54,7 +89,7 @@ The ground truth is available in two formats:
     2. **imageData.** This element was deleted on behalf of reducing redundancy and making the dataset smaller. There is one Jupyter Notebook on the **labelme** folder - *imagedata.ipynb* - which can restore or delete this dictionary element if one would like to modify some area mapping with the [labelme  python](https://github.com/wkentaro/labelme) tool. You <u>should</u> restore the imageData dictionary element in order to run once again the labelme tool on the provided json file.
     3. **Other features.** lineColor, fillColor and image path is also provided for the *labelme* tool to render the polygons on edit mode.
 
-## Included  scripts guide
+## Included scripts guide
 
 All the scripts were written in Jupyter Notebooks with a python 3.6 kernel for readers' ease. The scripts and the folder that contains them are numbered for you to execute in order on behalf of achieving the following objectives:
 
