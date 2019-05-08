@@ -240,7 +240,7 @@ The preparation and running of this dataset is supported by the *Instituto Tecno
 
 ## Legal Notice
 
-The Aerial Parking Lot dataset (APKLOT), is made available under the Creative Commons license found in the ``license/`` directory. A Creative Commons (CC) license is one of several public copyright licenses that enable free distribution of otherwise copyrighted work.
+The Aerial Parking Lot dataset (APKLOT), is made available under the MIT license found in the ``LICENSE.md`` file. A MIT license is one of several public copyright licenses that enable free distribution of otherwise copyrighted work.
 
 APKLOT consist of 500 still images with more than 7000 marked polygons of parking blocks. The images were extracted from Google Maps API. Users are entitled to use this image under this conditions:
 
