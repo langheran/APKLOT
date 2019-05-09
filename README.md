@@ -31,6 +31,7 @@
 - [Organizers](#organizers)
 - [Support](#support)
 - [Legal Notice](#legal-notice)
+- [How to cite this dataset:](#how-to-cite-this-dataset)
 
 ## Introduction
 
@@ -248,6 +249,27 @@ APKLOT consist of 500 still images with more than 7000 marked polygons of parkin
 2. Comply with the license file on the ``LICENSE.md`` file.
 3. Comply with best practices for attribution found here: https://wiki.creativecommons.org/wiki/best_practices_for_attribution
 4. Understand that the authors make no guarantee or warranty of non-infringement with respect to the dataset.
+   
+## How to cite this dataset:
+
+At the time of this writing (``2019-05-08``), the corresponding article is under editorial revision. Please be patient until we post the proper ``bibtex`` reference:
+
+```
+@article{hurst2019, 
+title={Robust Parking Block Segmentation from a Surveillance Camera Perspective},
+	volume={1},
+	number={1},
+	journal={Expert Systems with Applications},
+	publisher={Pergamon Press, Inc.},
+	author={Hurst-Tarrab, Nisim and Chang, Leonardo and Gonzalez-Mendoza, Miguel},
+	year={2019},
+	month={Jun},
+	pages={1--11}
+}
+```
+
+Version: 1.0
+Date: 2019-05-08
 
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>
