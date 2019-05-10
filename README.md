@@ -229,12 +229,12 @@ Dlib is an open source library that was published on [[5]](#user-content-ref-kin
 
 ## Organizers
 
-- Nisim Hurst -Tarrab (<a href="https://orcid.org/0000-0002-6125-9978" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon">orcid.org/0000-0002-6125-9978</a>) (MSc. in Computer Science from Tecnologico de Monterrey).
-- Leonardo Chang (<a href="https://orcid.org/0000-0002-0703-2131" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon">orcid.org/0000-0002-0703-2131</a>) (researcher at Tecnologico de Monterrey).
+- Nisim Hurst -Tarrab<sup><a href="https://orcid.org/0000-0002-6125-9978" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (MSc. in Computer Science from Tecnologico de Monterrey).
+- Leonardo Chang<sup><a href="https://orcid.org/0000-0002-0703-2131" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (researcher at Tecnologico de Monterrey).
 
 with major contributions from
 
-- Miguel González-Mendoza (<a href="https://orcid.org/0000-0001-6451-9109" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon">orcid.org/0000-0001-6451-9109</a>) (distinguished professor and researcher in the Department of Computer Science and Engineering, Tecnologico de Monterrey)
+- Miguel González-Mendoza<sup><a href="https://orcid.org/0000-0001-6451-9109" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (distinguished professor and researcher in the _School of Science and Engineering_, Tecnologico de Monterrey)
 
 ## Support
 The preparation and running of this dataset is supported by the *Instituto Tecnologico y de Estudios Superiores de Monterrey*, and was funded up to some point by the *Consejo Nacional de Ciencia y Tecnología* CONACyT. If you wish to contribute to this dataset or have any doubt, please contact us at langheran@gmail.com.
