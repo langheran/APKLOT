@@ -231,8 +231,12 @@ Dlib is an open source library that was published on [[7]](#user-content-ref-kin
 
 ## Organizers
 
-- Nisim Hurst-Tarrab, M.Sc.<sup><a href="https://orcid.org/0000-0002-6125-9978" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (graduate in Computer Science from Tecnologico de Monterrey).
-- Leonardo Chang, Ph.D.<sup><a href="https://orcid.org/0000-0002-0703-2131" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (researcher and professor at Tecnologico de Monterrey).
+- Nisim Hurst-Tarrab, M.Sc. (graduate in Computer Science from Tecnologico de Monterrey).
+- Leonardo Chang, Ph.D. (researcher and professor at Tecnologico de Monterrey).
+
+<!-- <sup><a href="https://orcid.org/0000-0002-6125-9978" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup>
+
+<sup><a href="https://orcid.org/0000-0002-0703-2131" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> -->
 
 with major contributions from
 
