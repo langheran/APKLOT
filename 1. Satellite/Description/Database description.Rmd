@@ -30,6 +30,9 @@ header-includes: |
     \usepackage{attachfile}
     \makeatletter\renewcommand*{\fps@figure}{H}\makeatother
 ---
+
+Even though there are many datasets like PKLot [@almeida2015] or CNRPark-EXT [@amato2017] for occupancy detection in parking lots, none of them were designed to tackle the parking block segmentation problem directly. Given the lack of a suitable dataset in the deep learning realm, we propose APKLOT, a dataset of roughly 7000 polygons for segmenting parking blocks from the satellite perspective and from the camera perspective.
+
 ## Introduction
 
 The main goal of this dataset is to segment parking spot spaces from several parking lots of the world in realistic satellite photos. Satellite photos were generated using the free Google Maps API service. Given a training set, this is fundamentally a supervised-learning learning problem.

@@ -353,6 +353,7 @@ The Aerial Parking Space dataset (<em>APKLOT</em>) is intended for two audiences
 </ul>
 </div>
 
+<p>Even though there are many datasets like PKLot <span class="citation">[<a href="#ref-almeida2015">1</a>]</span> or CNRPark-EXT <span class="citation">[<a href="#ref-amato2017">2</a>]</span> for occupancy detection in parking lots, none of them were designed to tackle the parking block segmentation problem directly. Given the lack of a suitable dataset in the deep learning realm, we propose APKLOT, a dataset of roughly 7000 polygons for segmenting parking blocks from the satellite perspective and from the camera perspective.</p>
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>The main goal of this dataset is to segment parking spot spaces from several parking lots of the world in realistic satellite photos. Satellite photos were generated using the free Google Maps API service. Given a training set, this is fundamentally a supervised-learning learning problem.</p>
@@ -437,13 +438,13 @@ The Aerial Parking Space dataset (<em>APKLOT</em>) is intended for two audiences
 </div>
 <div id="related-work" class="section level2">
 <h2>Related work</h2>
-<p>The authors on <span class="citation">[<a href="#ref-DBLP:journals/corr/HsiehLH17">1</a>]</span> present the CARPK dataset. It is the first large-scale dataset for counting cars from flying drones. CARPK provides 89,777 instances bounding boxes from moving video in 4 distinct parking lots.</p>
+<p>The authors on <span class="citation">[<a href="#ref-DBLP:journals/corr/HsiehLH17">3</a>]</span> present the CARPK dataset. It is the first large-scale dataset for counting cars from flying drones. CARPK provides 89,777 instances bounding boxes from moving video in 4 distinct parking lots.</p>
 </div>
 <div id="ground-truth-description" class="section level2">
 <h2>Ground truth description</h2>
 <p>The ground truth is available in two formats:</p>
 <ol style="list-style-type: decimal">
-<li><strong>Pascal VOC 2010.</strong> The PASCAL Visual Object Classes format <span class="citation">[<a href="#ref-Everingham10">2</a>]</span> is one of the most used for segmentation. Here is a brief description of the each folder, however if you wish to dive deeper you can refer to <a href="http://host.robots.ox.ac.uk/pascal/VOC/">the Pascal VOC page</a>:
+<li><strong>Pascal VOC 2010.</strong> The PASCAL Visual Object Classes format <span class="citation">[<a href="#ref-Everingham10">4</a>]</span> is one of the most used for segmentation. Here is a brief description of the each folder, however if you wish to dive deeper you can refer to <a href="http://host.robots.ox.ac.uk/pascal/VOC/">the Pascal VOC page</a>:
 <ol style="list-style-type: decimal">
 <li><strong>JPEGImages.</strong> The binary image files on JPEG compression format are stored here.</li>
 <li><strong>Annotations.</strong> Contains xml Pascal VOC annotation files. The most prominent feature of these files is that they do not contain the real shape polygon, just a bounding rectangle without orientation.</li>
@@ -459,7 +460,7 @@ Example segmentation images on the Pascal VOC: (A)  folder, (B)  folder, (C)  fo
 </p>
 </div>
 <ol start="2" style="list-style-type: decimal">
-<li><strong>LabelMe masks.</strong> LabelMe mask format was introduced as part of a <a href="http://labelme.csail.mit.edu/Release3.0/">web site</a> for image segmentation on <span class="citation">[<a href="#ref-DBLP:journals/corr/abs-1210-3448">3</a>]</span>. Here are the most important elements of the ensued json file:
+<li><strong>LabelMe masks.</strong> LabelMe mask format was introduced as part of a <a href="http://labelme.csail.mit.edu/Release3.0/">web site</a> for image segmentation on <span class="citation">[<a href="#ref-DBLP:journals/corr/abs-1210-3448">5</a>]</span>. Here are the most important elements of the ensued json file:
 <ol style="list-style-type: decimal">
 <li><strong>shapes.</strong> An array containing each of the shape polygons that were labeled as a parking spot.</li>
 <li><strong>imageData.</strong> This element was deleted on behalf of reducing redundancy and making the dataset smaller. There is one Jupyter Notebook on the <strong>labelme</strong> folder - <em>imagedata.ipynb</em> - which can restore or delete this dictionary element if one would like to modify some area mapping with the <a href="https://github.com/wkentaro/labelme">labelme python</a> tool. You <u>should</u> restore the imageData dictionary element in order to run once again the labelme tool on the provided json file.</li>
@@ -550,7 +551,7 @@ Stats features from the APKLOT dataset: (A) size in KB, (B) width and height of 
 Example segmentation images on our dataset .
 </p>
 </div>
-<p>Clear metrics <span class="citation">[<a href="#ref-stiefelhagen2006clear">4</a>]</span>.</p>
+<p>Clear metrics <span class="citation">[<a href="#ref-stiefelhagen2006clear">6</a>]</span>.</p>
 </div>
 <div id="dataset-expansion" class="section level2">
 <h2>Dataset expansion</h2>
@@ -585,11 +586,11 @@ Example segmentation images on our dataset .
 </div>
 <div id="labelme" class="section level3">
 <h3>labelme</h3>
-<p>We already digressed around labelme but here we indulge in a more formal introduction. Labelme is a polygon manual annotation tool for segmentation that was published on <span class="citation">[<a href="#ref-DBLP:journals/corr/abs-1210-3448">3</a>]</span>. It was first exposed to the public through a <a href="http://labelme.csail.mit.edu/Release3.0/">webpage</a> and then through a python pip <a href="https://github.com/wkentaro/labelme">package</a>.</p>
+<p>We already digressed around labelme but here we indulge in a more formal introduction. Labelme is a polygon manual annotation tool for segmentation that was published on <span class="citation">[<a href="#ref-DBLP:journals/corr/abs-1210-3448">5</a>]</span>. It was first exposed to the public through a <a href="http://labelme.csail.mit.edu/Release3.0/">webpage</a> and then through a python pip <a href="https://github.com/wkentaro/labelme">package</a>.</p>
 </div>
 <div id="dlib" class="section level3">
 <h3>dlib</h3>
-<p>Dlib is an open source library that was published on <span class="citation">[<a href="#ref-King:2009:DML:1577069.1755843">5</a>]</span>. It has extensive documentation through its <a href="http://dlib.net/">webpage</a>.</p>
+<p>Dlib is an open source library that was published on <span class="citation">[<a href="#ref-King:2009:DML:1577069.1755843">7</a>]</span>. It has extensive documentation through its <a href="http://dlib.net/">webpage</a>.</p>
 </div>
 </div>
 <div id="history-and-background" class="section level2">
@@ -648,20 +649,26 @@ Example segmentation images on our dataset .
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>
 <div id="refs" class="references">
+<div id="ref-almeida2015">
+<p>[1] P. R. Almeida, L. S. Oliveira, A. S. Britto, E. J. Silva, and A. L. Koerich, “PKLot - a robust dataset for parking lot classification the pklot dataset,” <em>Expert Systems with Applications</em>, vol. 42, no. 11, pp. 1–6, Jul. 2015.</p>
+</div>
+<div id="ref-amato2017">
+<p>[2] G. Amato, F. Carrara, F. Falchi, C. Gennaro, C. Meghini, and C. Vairo, “Deep learning for decentralized parking lot occupancy detection,” <em>Expert Systems with Applications</em>, vol. 72, pp. 327–334, 2017.</p>
+</div>
 <div id="ref-DBLP:journals/corr/HsiehLH17">
-<p>[1] M. Hsieh, Y. Lin, and W. H. Hsu, “Drone-based object counting by spatially regularized regional proposal network,” <em>CoRR</em>, vol. abs/1707.05972, 2017.</p>
+<p>[3] M. Hsieh, Y. Lin, and W. H. Hsu, “Drone-based object counting by spatially regularized regional proposal network,” <em>CoRR</em>, vol. abs/1707.05972, 2017.</p>
 </div>
 <div id="ref-Everingham10">
-<p>[2] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, “The pascal visual object classes (voc) challenge,” <em>International Journal of Computer Vision</em>, vol. 88, no. 2, pp. 303–338, Jun. 2010.</p>
+<p>[4] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, “The pascal visual object classes (voc) challenge,” <em>International Journal of Computer Vision</em>, vol. 88, no. 2, pp. 303–338, Jun. 2010.</p>
 </div>
 <div id="ref-DBLP:journals/corr/abs-1210-3448">
-<p>[3] A. Barriuso and A. Torralba, “Notes on image annotation,” <em>CoRR</em>, vol. abs/1210.3448, 2012.</p>
+<p>[5] A. Barriuso and A. Torralba, “Notes on image annotation,” <em>CoRR</em>, vol. abs/1210.3448, 2012.</p>
 </div>
 <div id="ref-stiefelhagen2006clear">
-<p>[4] R. Stiefelhagen, K. Bernardin, R. Bowers, J. Garofolo, D. Mostefa, and P. Soundararajan, “The clear 2006 evaluation,” in <em>International evaluation workshop on classification of events, activities and relationships</em>, 2006, pp. 1–44.</p>
+<p>[6] R. Stiefelhagen, K. Bernardin, R. Bowers, J. Garofolo, D. Mostefa, and P. Soundararajan, “The clear 2006 evaluation,” in <em>International evaluation workshop on classification of events, activities and relationships</em>, 2006, pp. 1–44.</p>
 </div>
 <div id="ref-King:2009:DML:1577069.1755843">
-<p>[5] D. E. King, “Dlib-ml: A machine learning toolkit,” <em>J. Mach. Learn. Res.</em>, vol. 10, pp. 1755–1758, Dec. 2009.</p>
+<p>[7] D. E. King, “Dlib-ml: A machine learning toolkit,” <em>J. Mach. Learn. Res.</em>, vol. 10, pp. 1755–1758, Dec. 2009.</p>
 </div>
 </div>
 </div>
