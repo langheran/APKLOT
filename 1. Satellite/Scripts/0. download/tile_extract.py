@@ -1,10 +1,6 @@
 """
 Stitch together Google Maps images from lat, long coordinates
 Based on work by heltonbiker and BenElgar
-Changes: 
-  * updated for Python 3
-  * added Google Maps API key (compliance with T&C, although can set to None)
-  * handle http request exceptions
 """
 import string
 
