@@ -241,7 +241,7 @@ Dlib is an open source library that was published on [[7]](#user-content-ref-kin
 with major contributions from
 
 - Miguel González-Mendoza, Ph.D.<sup><a href="https://orcid.org/0000-0001-6451-9109" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (distinguished professor and researcher in the _School of Science and Engineering_, Tecnologico de Monterrey)
-- Neil Hernandez-Gress, Ph.D.<sup><a href="https://orcid.org/0000-0003-0966-5685" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (Assocate ViceRector for Research in the _School of Science and Engineering_, Tecnologico de Monterrey)
+- Neil Hernandez-Gress, Ph.D.<sup><a href="https://orcid.org/0000-0003-0966-5685" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"  target='_blank'><img src="/images/orcid_16x16.png" style="width:1em;margin-right:.2em;" alt="ORCID iD icon"></a></sup> (associate vice-chancellor for research in the _School of Science and Engineering_, Tecnologico de Monterrey)
 
 ## Support
 The preparation and running of this dataset is supported by the *Instituto Tecnologico y de Estudios Superiores de Monterrey*, and was funded up to some point by the *Consejo Nacional de Ciencia y Tecnología* CONACyT. If you wish to contribute to this dataset or have any doubt, please contact us at langheran@gmail.com.
