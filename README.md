@@ -259,24 +259,25 @@ APKLOT consist of 500 still images with more than 7000 marked polygons of parkin
    
 ## How to Cite
 
-At the time of this writing (``2019-05-08``), the corresponding article is under editorial revision. Please be patient until we post the proper ``bibtex`` reference:
+Please cite this paper using the following ``bibtex`` reference:
 
 ```
-@article{hurst2019, 
-title={Robust Parking Block Segmentation from a Surveillance Camera Perspective},
-	volume={1},
-	number={1},
-	journal={Expert Systems with Applications},
-	publisher={Pergamon Press, Inc.},
-	author={Hurst-Tarrab, Nisim and Chang, Leonardo and Gonzalez-Mendoza, Miguel},
-	year={2019},
-	month={Jun},
-	pages={1--11}
+@article{hurst2020,
+  title={Robust Parking Block Segmentation from a Surveillance Camera Perspective},
+  author={Hurst-Tarrab, Nisim and Chang, Leonardo and Gonzalez-Mendoza, Miguel and Hernandez-Gress, Neil},
+  journal={Applied Sciences},
+  volume={10},
+  number={15},
+  pages={5364},
+  year={2020},
+  publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
 
-Version: 1.0
-Date: 2019-05-08
+*Open Access* version can be found [here](https://www.mdpi.com/2076-3417/10/15/5364).
+
+Version: 2.0
+Date: 2020-08-03
 
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>
