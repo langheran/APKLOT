@@ -259,7 +259,7 @@ APKLOT consist of 500 still images with more than 7000 marked polygons of parkin
    
 ## How to Cite
 
-Please cite this paper using the following ``bibtex`` reference:
+Please cite this dataset using the following ``bibtex`` reference:
 
 ```
 @article{hurst2020,
@@ -274,7 +274,7 @@ Please cite this paper using the following ``bibtex`` reference:
 }
 ```
 
-*Open Access* version can be found [here](https://www.mdpi.com/2076-3417/10/15/5364).
+*Open Access* version of the accompanying paper can be found [here](https://www.mdpi.com/2076-3417/10/15/5364).
 
 Version: 2.0
 Date: 2020-08-03
